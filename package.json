@@ -1,20 +1,9 @@
 {
-  "name": "time-manager-complete",
+  "name": "time-manager-backend",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "backend": "node backend/server.js"
-  },
+  "main": "server.js",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.4.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.1",
-    "vite": "^4.4.5"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
